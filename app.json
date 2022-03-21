@@ -4,9 +4,9 @@
     "slug": "mommy-kids",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/headerIcon.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/headerIcon.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -21,12 +21,15 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/headerIcon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.abbaas.mommykids",
+      "versionCode": 1
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "description": ""
   }
 }
